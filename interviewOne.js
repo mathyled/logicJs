@@ -37,7 +37,8 @@
 
   function reverseTwo(text){
     let reverseText = "";
-    [...text].reverse().forEach(letter => {
+    const [...destruc] = text
+    destruc.reverse().forEach(letter => {
       reverseText += letter
      
     })
@@ -72,6 +73,10 @@ function reverseFour(text){
     let subText = text.substring(1)
     
     return reverseFour(subText) + text.charAt(0) 
+    // alternativa
+    // let subText =  text.slice(1)
+    
+    // return reverseFour(subText) + text.slice(0,1)// ello world + H
   }
 
 console.log(reverseFour(text))
