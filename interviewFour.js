@@ -12,6 +12,8 @@ let arr = [1, 1, 0, -1, -1]
 //Imprime las proporciones de valores positivos, negativos y cero en la matriz. Cada valor debe imprimirse en una línea separada condígitos después del decimal. La función no debe devolver un valor.
 
 function plusMinus(arr) {
-    // Write your code here
-
+    // Escribi tu codigo aquí
+    /**
+     *  tomo la matriz 
+     */ 
   }
